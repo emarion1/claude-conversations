@@ -36,6 +36,12 @@ User wanted to set up a process to save Claude conversations to a git repository
 - Should we create additional templates for specific conversation types (coding, planning, research)?
 - Would automation tools or browser extensions be worth exploring?
 
+## Additional Workflow: Reading Conversations
+- Use `ls conversations/2025/` to browse available conversations
+- Use `Read` tool with full file path to read specific conversations
+- Can search conversations with `grep` commands
+- Browse on GitHub for web interface
+
 ## Related Conversations
 This is the first conversation in the repository.
 

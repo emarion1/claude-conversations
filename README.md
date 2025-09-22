@@ -40,9 +40,30 @@ Use this format for conversation files:
 - Fill in the conversation details
 - Include context, key insights, and action items
 
+### Reading/Browsing Conversations
+
+1. **List available conversations:**
+   ```bash
+   ls conversations/2025/
+   ```
+
+2. **Read a specific conversation:**
+   ```bash
+   Read /Users/emarion/claude-conversations/conversations/2025/YYYY-MM-DD-topic.md
+   ```
+
+3. **Search conversations:**
+   ```bash
+   grep "keyword" conversations/**/*.md
+   ```
+
+4. **View on GitHub:**
+   Browse at https://github.com/emarion1/claude-conversations
+
 ## Tips
 
 - Save conversations immediately after important sessions
 - Include relevant context and outcomes
 - Tag conversations with keywords for easy searching
 - Use git history to track conversation evolution
+- Browse conversations by listing files first, then reading specific ones
