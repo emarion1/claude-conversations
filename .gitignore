@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might contain sensitive information
+**/private/
+**/secrets/
+
+# Temporary files
+*.tmp
+*.temp
+.#*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
