@@ -15,6 +15,12 @@ conversations/
 
 ### Saving a Conversation
 
+**Simple 3-command sequence for each Claude session:**
+1. `summarize this conversation using the template you provided`
+2. `commit it`
+3. `git push`
+
+**Manual approach (if needed):**
 1. Copy the conversation content from Claude
 2. Create a new markdown file with a descriptive name:
    ```

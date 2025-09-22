@@ -42,6 +42,14 @@ User wanted to set up a process to save Claude conversations to a git repository
 - Can search conversations with `grep` commands
 - Browse on GitHub for web interface
 
+## Essential Command Sequence for Each Claude Session
+To save any conversation to GitHub, use these three commands:
+1. `summarize this conversation using the template you provided`
+2. `commit it`
+3. `git push`
+
+Optional: `ls conversations/2025/` to browse existing conversations first.
+
 ## Related Conversations
 This is the first conversation in the repository.
 
