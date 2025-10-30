@@ -8,7 +8,12 @@ A repository for saving and organizing conversations with Claude AI.
 conversations/
 ├── 2025/           # Conversations by year
 ├── templates/      # Templates for different conversation types
-└── drafts/         # Work-in-progress conversations
+├── drafts/         # Work-in-progress conversations
+└── costs/          # Automated Claude CLI cost tracking
+    ├── claude-cli-costs.md      # Main cost log
+    ├── monthly/                 # Monthly breakdowns
+    │   └── 2025-10.md          # October 2025 costs
+    └── scripts/                 # Analysis utilities
 ```
 
 ## Usage
@@ -66,6 +71,42 @@ Use this format for conversation files:
 4. **View on GitHub:**
    Browse at https://github.com/emarion1/claude-conversations
 
+## Cost Tracking
+
+### Automatic Cost Logging
+Claude CLI sessions are automatically tracked and logged:
+- **Shell wrapper**: Intercepts `claude` command and logs costs after each session
+- **Auto-commit**: Updates are automatically committed and pushed to GitHub
+- **Structured data**: Costs are organized in markdown files for easy analysis
+
+### Viewing Cost Data
+1. **Current costs summary:**
+   ```bash
+   Read /Users/emarion/claude-conversations/costs/claude-cli-costs.md
+   ```
+
+2. **Monthly breakdown:**
+   ```bash
+   Read /Users/emarion/claude-conversations/costs/monthly/2025-10.md
+   ```
+
+3. **Manual cost check:**
+   ```bash
+   /cost --all
+   ```
+
+### Cost Analysis Features
+- **Session tracking**: Individual session costs and model usage
+- **Monthly summaries**: Detailed monthly cost analysis
+- **Model breakdown**: Haiku vs Sonnet usage patterns
+- **Trend analysis**: Cost patterns over time
+- **Git history**: Full version control of cost changes
+
+### Cost Files
+- `costs/claude-cli-costs.md`: Main log with recent sessions
+- `costs/monthly/YYYY-MM.md`: Monthly detailed analysis
+- `costs/README.md`: Full documentation of cost tracking system
+
 ## Tips
 
 - Save conversations immediately after important sessions
@@ -73,3 +114,5 @@ Use this format for conversation files:
 - Tag conversations with keywords for easy searching
 - Use git history to track conversation evolution
 - Browse conversations by listing files first, then reading specific ones
+- Cost tracking happens automatically - no manual intervention needed
+- View cost trends to optimize Claude CLI usage patterns
