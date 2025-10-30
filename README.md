@@ -71,6 +71,21 @@ Use this format for conversation files:
 4. **View on GitHub:**
    Browse at https://github.com/emarion1/claude-conversations
 
+## Recent Conversations
+
+### Featured Projects
+- **[2025-10-30: Claude CLI Cost Tracker Documentation](conversations/2025/2025-10-30-claude-cli-cost-tracker-documentation.md)**
+  - Created comprehensive documentation repository for automated Claude CLI cost tracking
+  - Developed shell wrapper function for transparent cost logging
+  - Published open-source repository: https://github.com/emarion1/claude-cli-cost-tracker
+  - Tags: #cost-tracking #documentation #automation #github #shell-scripting
+
+### All Conversations
+- [2025-10-30: Claude CLI Cost Tracker Documentation](conversations/2025/2025-10-30-claude-cli-cost-tracker-documentation.md)
+- [2025-01-25: VTeam Platform Analysis](conversations/2025/2025-01-25-vteam-platform-analysis.md)
+- [2025-01-15: Claude Conversations Repo Setup](conversations/2025/2025-01-15-claude-conversations-repo-setup.md)
+- [2025-09-22: AI Agilist Conversation Summary](conversations/2025/2025-09-22-ai-agilist_CONVERSATION_SUMMARY.md)
+
 ## Cost Tracking
 
 ### Automatic Cost Logging
@@ -106,6 +121,14 @@ Claude CLI sessions are automatically tracked and logged:
 - `costs/claude-cli-costs.md`: Main log with recent sessions
 - `costs/monthly/YYYY-MM.md`: Monthly detailed analysis
 - `costs/README.md`: Full documentation of cost tracking system
+
+### Documentation Repository
+For complete installation guides, examples, and community support:
+**📚 [Claude CLI Cost Tracker Documentation](https://github.com/emarion1/claude-cli-cost-tracker)**
+- Installation scripts and validation tools
+- Usage guides and best practices
+- Troubleshooting and configuration options
+- Community contributions welcome
 
 ## Tips
 
