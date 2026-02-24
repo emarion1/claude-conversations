@@ -8,6 +8,7 @@
 
 ## Recent Sessions
 | Date | Time | Session Cost | Total Cost | Haiku Tokens | Sonnet Tokens | Notes |
+| 2026-02-24 11:03 | $0.0000 | $0.0000 | Haiku: $ | Sonnet: $ | Auto-logged |
 |------|------|-------------|------------|--------------|---------------|-------|
 | 2025-10-30 | 12:33 | $5.61 | $5.61 | 150.6k in, 3.8k out | 413 in, 47.1k out | Initial setup |
 
